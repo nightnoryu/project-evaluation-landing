@@ -4,3 +4,72 @@
     margin: 0;
     text-decoration: none;
 }
+
+/* Header */
+
+.page-header
+{
+    padding: 2%;
+}
+
+.page-header__logo
+{
+    display: flex;
+}
+
+.page-header__logo-image
+{
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.page-header__logo-text
+{
+    font-family: "Fira Sans", sans-serif;
+    display: inline-block;
+}
+
+.page-header__navigation-item
+{
+    font-family: "Fira Sans", sans-serif;
+    display: inline-block;
+}
+
+/* Main */
+
+.main
+{
+    padding-left: 2%;
+}
+
+.main__heading
+{
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.main__list
+{
+    margin-left: 15px;
+}
+
+.main__list-item
+{
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* Footer */
+
+.page-footer
+{
+    border-top: 1px solid black;
+    padding-left: 2%;
+    padding-top: 20px;
+}
+
+.page-footer__copyright
+{
+    font-family: "Fira Sans", sans-serif;
+}
