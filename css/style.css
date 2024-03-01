@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+:root
+{
+    --headings-color: #202020;
+}
+
 /* Header */
 
 .page-header
@@ -19,14 +24,15 @@
 
 .page-header__logo-image
 {
-    width: 40px;
-    height: auto;
+    height: 2.5em;
+    width: auto;
     margin-right: 10px;
 }
 
 .page-header__logo-text
 {
     font-family: "Fira Sans", sans-serif;
+    color: var(--headings-color);
     display: inline-block;
 }
 
@@ -46,6 +52,7 @@
 .main__heading
 {
     font-family: "Fira Sans", sans-serif;
+    color: var(--headings-color);
     margin-bottom: 15px;
     margin-top: 20px;
 }
