@@ -1,0 +1,58 @@
+.contact-form
+{
+    width: 50%;
+}
+
+.contact-form__heading
+{
+    font-family: "Fira Sans", sans-serif;
+    color: var(--headings-color);
+    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.contact-form__label
+{
+    font-family: "Fira Sans", sans-serif;
+    margin-left: 2%;
+    margin-right: 5px;
+}
+
+.contact-form__text-field
+{
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #474947;
+    width: 250px;
+}
+
+.contact-form__longtext
+{
+    font-family: "Fira Sans", sans-serif;
+    margin-left: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #474947;
+    resize: none;
+}
+
+.contact-form__submit-button
+{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    border: 1px solid #474947;
+    padding: 6px 14px 6px;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+.contact-form__submit-button:hover,
+.contact-form__submit-button:active
+{
+    background-color: var(--accent-color-darkened);
+}

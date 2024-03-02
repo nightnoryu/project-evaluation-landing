@@ -8,6 +8,8 @@
 :root
 {
     --headings-color: #202020;
+    --accent-color: #77c19f;
+    --accent-color-darkened: #649e7c;
 }
 
 /* Header */
@@ -15,7 +17,7 @@
 .page-header
 {
     padding: 2% 2% 20px;
-    background-color: #77c19f;
+    background-color: var(--accent-color);
     border-bottom: 1px solid #000000;
 }
 
@@ -55,7 +57,7 @@
 .page-header__navigation-item:hover,
 .page-header__navigation-item:active
 {
-    background-color: #649e7c;
+    background-color: var(--accent-color-darkened);
 }
 
 .page-header__navigation-link
