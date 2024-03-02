@@ -1,8 +1,3 @@
-.contact-form
-{
-    width: 50%;
-}
-
 .contact-form__heading
 {
     font-family: "Fira Sans", sans-serif;
@@ -33,6 +28,7 @@
 {
     font-family: "Fira Sans", sans-serif;
     margin-left: 2%;
+    margin-top: 3px;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #474947;
@@ -55,4 +51,20 @@
 .contact-form__submit-button:active
 {
     background-color: var(--accent-color-darkened);
+}
+
+@media (max-width: 1080px)
+{
+    .contact-form__text-field
+    {
+        width: 90%;
+        margin-left: 2%;
+        margin-top: 3px;
+    }
+
+    .contact-form__longtext
+    {
+        width: 90%;
+        margin-left: 2%;
+    }
 }
