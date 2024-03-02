@@ -14,7 +14,9 @@
 
 .page-header
 {
-    padding: 2%;
+    padding: 2% 2% 20px;
+    background-color: #77c19f;
+    border-bottom: 1px solid #000000;
 }
 
 .page-header__logo
@@ -36,35 +38,95 @@
     display: inline-block;
 }
 
+.page-header__navigation
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
 .page-header__navigation-item
 {
     font-family: "Fira Sans", sans-serif;
-    display: inline-block;
+    padding: 5px;
+}
+
+.page-header__navigation-item:hover,
+.page-header__navigation-item:active
+{
+    background-color: #649e7c;
+}
+
+.page-header__navigation-link
+{
+    color: black;
+}
+
+@media (max-width: 1080px)
+{
+    .page-header__logo
+    {
+        padding-top: 3%;
+        justify-content: center;
+    }
+
+    .page-header__navigation
+    {
+        justify-content: center;
+    }
 }
 
 /* Main */
-
-.main
-{
-    padding-left: 2%;
-}
 
 .main__heading
 {
     font-family: "Fira Sans", sans-serif;
     color: var(--headings-color);
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     margin-top: 20px;
+    margin-left: 2%;
 }
 
 .main__list
 {
-    margin-left: 15px;
+    margin-left: 3%;
 }
 
 .main__list-item
 {
     font-family: "Fira Sans", sans-serif;
+}
+
+.main__paragraph
+{
+    margin-left: 2%;
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main__image
+{
+    margin-left: 2%;
+    width: 38%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1080px)
+{
+    .main__list
+    {
+        margin-left: 6%;
+    }
+
+    .main__image
+    {
+        width: 95%;
+        display: block;
+        margin: 15px auto 15px;
+    }
 }
 
 /* Footer */
@@ -74,9 +136,18 @@
     border-top: 1px solid black;
     padding-left: 2%;
     padding-top: 20px;
+    margin-top: 20px;
 }
 
 .page-footer__copyright
 {
     font-family: "Fira Sans", sans-serif;
+}
+
+@media (max-width: 1080px)
+{
+    .page-footer__copyright
+    {
+        text-align: center;
+    }
 }
