@@ -53,6 +53,11 @@
     background-color: var(--accent-color-darkened);
 }
 
+.contact-form__error_field
+{
+    border: 1px solid #ff0000;
+}
+
 @media (max-width: 1080px)
 {
     .contact-form__text-field
