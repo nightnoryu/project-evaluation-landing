@@ -111,9 +111,16 @@
 .main__image
 {
     margin-left: 2%;
-    width: 38%;
+    width: 35%;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.main__embedded-video
+{
+    margin-left: 2%;
+    width: 560px;
+    height: 315px;
 }
 
 @media (max-width: 1080px)
@@ -124,6 +131,13 @@
     }
 
     .main__image
+    {
+        width: 95%;
+        display: block;
+        margin: 15px auto 15px;
+    }
+
+    .main__embedded-video
     {
         width: 95%;
         display: block;
